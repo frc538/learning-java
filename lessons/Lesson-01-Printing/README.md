@@ -47,3 +47,5 @@ Try doing it several different ways.
 Can you do it with just one call?
 
 This example is from [Learn Java The Hard Way](https://learnjavathehardway.org/book/ex02.html). The link will show you an example solution.
+
+You can add lines to the end of the App.java main method to run your code, replace the code inside the main method with your own, or create a new project.
