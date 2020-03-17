@@ -18,5 +18,7 @@ jobs:
         java-version: 11
     - name: Grant execute permission for gradlew
       run: chmod +x lessons/Lesson-01-Printing/gradlew
+      run: chmod +x lessons/Lesson-02-Numeric-Operations/gradlew
     - name: Build with Gradle
       run: ./lessons/Lesson-01-Printing/gradlew build
+      run: ./lessons/Lesson-02-Numeric-Operations/gradlew build

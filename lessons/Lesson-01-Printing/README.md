@@ -1,4 +1,4 @@
-# Lesson 01 - println() and print()
+# Lesson 01 - Printing
 
 ## Topics
 
