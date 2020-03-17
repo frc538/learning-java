@@ -30,4 +30,8 @@ For example, if you want to work on Lesson 01, you should open the folder for Le
 
 Each lesson will have a Java project as well as a README file for that specific lesson.
 
-To run a project, find its main method and click **Run** in Visual Studio Code. If you do not see this option, you may not have the extensions installed. Check the steps to install Visual Studio Code.
+To run a non-robot project, find its main method and click **Run** in Visual Studio Code. If you do not see this option, you may not have the extensions installed. Check the steps to install Visual Studio Code.
+
+You also have the option of opening the App.java file for the project and clicking the "play" button in Visual Studio Code.
+
+Finally, you have the option to use gradle. In the project directory, you can run `./gradlew run` to run the application.
