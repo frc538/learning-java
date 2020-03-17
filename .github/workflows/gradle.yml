@@ -16,9 +16,11 @@ jobs:
       uses: actions/setup-java@v1
       with:
         java-version: 11
-    - name: Lesson 01
+
+    - name: Build Lesson 01
       run: chmod +x lessons/Lesson-01-Printing/gradlew 
-            && ./lessons/Lesson-01-Printing/gradlew build 
-    - name: Lesson 02
+            && ./lessons/Lesson-01-Printing/gradlew build
+
+    - name: Build Lesson 02
       run: chmod +x lessons/Lesson-02-Numeric-Operations/gradlew
             && ./lessons/Lesson-02-Numeric-Operations/gradlew build
