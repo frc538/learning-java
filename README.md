@@ -29,3 +29,5 @@ Instead of opening the entire repo, you should open the folder for the lesson yo
 For example, if you want to work on Lesson 01, you should open the folder for Lesson 01 in Visual Studio Code rather than the entire repository folder.
 
 Each lesson will have a Java project as well as a README file for that specific lesson.
+
+To run a project, find its main method and click **Run** in Visual Studio Code. If you do not see this option, you may not have the extensions installed. Check the steps to install Visual Studio Code.
