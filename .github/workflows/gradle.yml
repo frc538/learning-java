@@ -24,3 +24,7 @@ jobs:
     - name: Build Lesson 02
       run: chmod +x lessons/Lesson-02-Numeric-Operations/gradlew
             && ./lessons/Lesson-02-Numeric-Operations/gradlew build
+
+    - name: Build Lesson 03
+      run: chmod +x lessons/Lesson-03-Variables/gradlew
+            && ./lessons/Lesson-03-Variables/gradlew build
