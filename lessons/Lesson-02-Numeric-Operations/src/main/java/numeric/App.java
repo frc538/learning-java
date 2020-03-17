@@ -83,6 +83,12 @@ public class App {
          */
 
         /**
+         * When doing math in Java, you can always make use of more parentheses to
+         * either enforce the order in which calculations occur or to make the text a
+         * little more clear.
+         */
+
+        /**
          * Multiplication also works in Java.
          */
         System.out.println(19 * 11);
@@ -221,6 +227,19 @@ public class App {
         System.out.println(12 * 5.0);
         System.out.println(12 % 5.0);
         System.out.println(12 / 5.0);
+
+        /**
+         * Finally, be aware that floating point numbers can be tricky.
+         * 
+         * The computer is able to exactly store an integer, even large ones like a
+         * million.
+         * 
+         * Decimal numbers are harder, so what you think should be 0.2 might actually be
+         * something like 1.9999999999998 or 2.0000000000000003.
+         * 
+         * We'll see more about this later. For now, if the decimal number isn't exactly
+         * what you expect, check and see if it's really close - it might not be wrong!
+         */
 
         /**
          * Java also has a library of math methods.
