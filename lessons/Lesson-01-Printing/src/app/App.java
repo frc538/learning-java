@@ -56,8 +56,26 @@ public class App {
          * 
          * Finally, most lines in Java end in a semicolon (;), especially
          * lines that DO something (rather than check or define something).
+         * 
+         * These lines ending in semicolons are called statements.
          */
         System.out.println();
+
+        /**
+         * In Java, lines that are not executed are called comments.
+         * 
+         * Comments, like this one, are meant to provide information
+         * about the code to anyone who reads it.
+         */
+
+        /**
+         * Comments can look like this (multi-line), where the block
+         * starts with a forward slash and asterisk and ends with 
+         * an asterisk and forward slash. All other asterisks are
+         * for formatting.
+         */
+
+        // Single line comments look like this and start with two forward slashes.
 
         /**
          * Instead of printing a blank line, you can print
@@ -129,14 +147,6 @@ public class App {
         System.out.println(" And even this is on the same line!");
         System.out.print("This is a new line, though.");
         System.out.println(" This is still on the second line.");
-        System.out.println("And this is a third line.");
-
-        /**
-         * That wraps up what can be done with print and println 
-         * for the time being.
-         * 
-         * Be sure to check this lesson's README for more information.
-         */
-        
+        System.out.println("And this is a third line.");        
     }
 }

@@ -1,10 +1,30 @@
 # Lesson 01 - println() and print()
 
+## Topics
+
+This lesson introduces:
+
+- Packages
+- Classes
+- Methods
+- The Main Method
+- println
+- print
+- String literals
+- Concatenation
+- Escape characters
+- Single Line comments
+- Multi-Line comments
+
+## Read the Docs
 
 You can read more on println and print:
+
 - [println() - No string](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/io/PrintStream.html#println())
 - [println(String)](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/io/PrintStream.html#println(java.lang.String))
 - [print(String)](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/io/PrintStream.html#print(java.lang.String))
+
+## Next Steps
 
 After you get comfortable with print and println, try printing this text:
 
