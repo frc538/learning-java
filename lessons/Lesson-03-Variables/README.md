@@ -3,6 +3,15 @@
 ## Topics
 
 <!-- TODO: Topics -->
+This lesson introduces:
+
+- Variables
+  - Declaration
+  - Assignment
+  - Initialization
+- Types
+  - int
+- Incrementing and Decrementing
 
 ## Read the Docs
 
