@@ -24,7 +24,7 @@ This lesson introduces:
 
 ## Read the Docs
 
-You can read me:
+You can read more:
 
 - [The String Class](https://docs.oracle.com/en/java/javase/11/docs/api/java.base/java/lang/String.html)
 - [Primitive Data Types](https://docs.oracle.com/javase/tutorial/java/nutsandbolts/datatypes.html)
