@@ -42,7 +42,7 @@ public class App {
      * For now, all of the code you write will go
      * in this special, main method.
      */
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         /**
          * In a Java program, you can create a line of text
          * using the println function.

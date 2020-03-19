@@ -12,7 +12,7 @@ public class App {
     /**
      * We also have the main method that will allow the program to run.
      */
-    public static void main(String[] args) throws Exception {
+    public static void main(String[] args) {
         /**
          * As we saw before, you can print string literals.
          */
