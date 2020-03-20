@@ -3,6 +3,13 @@
 ## Topics
 
 <!-- TODO: Topics -->
+This lesson introduces:
+
+- Constants
+- Boolean values
+- Boolean variables
+- int comparison
+- double comparison
 
 ## Read the Docs
 

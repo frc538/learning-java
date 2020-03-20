@@ -206,7 +206,6 @@ public class App {
         System.out.println(Math.abs(firstDouble - secondDouble) < 0.001);
         System.out.println(Math.abs(firstDouble - secondDouble) < 0.0001);
 
-        // Double comparison
 
         // String comparison
 
