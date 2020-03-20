@@ -149,9 +149,62 @@ public class App {
          * doubles), but you should generally avoid this unless you absolutely have to.
          */
 
-         
+        /**
+         * We also have two other comparisons. To see if two variables are equal, we use
+         * ==. To see if they are not equal, we use !=.
+         * 
+         * Notice that the equality check is == with two equal signs while the
+         * assignment operator is = with just one. This is why we suggest saying GETS
+         * for assignment, because we use == to see if two things are actually equal.
+         * 
+         * x = 5 is read "x gets the value 5"
+         * 
+         * x == 5 is read "is x equal to 5?"
+         * 
+         */
+        firstNumber = 3;
+        secondNumber = 4;
 
-        // Integer comparison
+        System.out.println(firstNumber == secondNumber);
+        System.out.println(firstNumber != secondNumber);
+
+        System.out.println(3 == 4);
+        System.out.println(3 != 4);
+
+        /**
+         * The same comparisons CAN technically be used for floating point types (like
+         * doubles), but you should avoid them for those types.
+         * 
+         * Computers can't store floating point numbers exactly due to memory
+         * limitations, so it's very possible that two numbers you think are equal are
+         * not (to the computer, at least).
+         * 
+         * For doubles, it is suggested that you take the absolute value of the
+         * difference and compare that to some small threshold.
+         * 
+         * For example, 0.1 and 0.1001 are the same if your threshold is smaller than
+         * 0.0001.
+         * 
+         * The bigger the threshold, the more different the numbers can be for you to
+         * consider them "equal."
+         */
+        double firstDouble = 1.001;
+        double secondDouble = 1;
+
+        System.out.println(Math.abs(firstDouble - secondDouble) < 0.1);
+        System.out.println(Math.abs(firstDouble - secondDouble) < 0.01);
+        System.out.println(Math.abs(firstDouble - secondDouble) < 0.001);
+        System.out.println(Math.abs(firstDouble - secondDouble) < 0.0001);
+
+        /**
+         * We use the absolute value in case we're comparing 1.001 to 1 or 0.999 to 1
+         * (and we only want to do one check).
+         */
+        secondDouble = 0.999;
+        System.out.println(Math.abs(firstDouble - secondDouble) < 0.1);
+        System.out.println(Math.abs(firstDouble - secondDouble) < 0.01);
+        System.out.println(Math.abs(firstDouble - secondDouble) < 0.001);
+        System.out.println(Math.abs(firstDouble - secondDouble) < 0.0001);
 
         // Double comparison
 
