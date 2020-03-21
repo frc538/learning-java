@@ -206,8 +206,53 @@ public class App {
         System.out.println(Math.abs(firstDouble - secondDouble) < 0.001);
         System.out.println(Math.abs(firstDouble - secondDouble) < 0.0001);
 
+        /**
+         * For Strings, we're limited to the == and != operators. Some languages define
+         * the other operators (like >) for strings, but Java does not.
+         */
 
-        // String comparison
+        String firstString = "a";
+        String secondString = "b";
+        System.out.println(firstString == secondString);
+        System.out.println(firstString != secondString);
+
+        firstString = "a";
+        secondString = "a";
+        System.out.println(firstString == secondString);
+        System.out.println(firstString != secondString);
+
+        /**
+         * While these may give you the expected results SOMETIMES, you shoud generally
+         * avoid using == and != for strings. This has to do with how objects and
+         * primitive types check for equality.
+         * 
+         * Primitive types are equal if the variables have the same value. Objects (like
+         * strings) are equal if the variables refer to the same (physical) thing.
+         * 
+         * This is a subtle difference and more complicated that we need to consider
+         * right now. For the time being, do not use == and != with strings.
+         */
+
+        /**
+         * If you need to see if two strings are equal, you should use the equals()
+         * method. The equals() method will compare the two strings and give back a
+         * boolean representing if they are the same text (all characters exactly the
+         * same).
+         */
+        firstString = "B";
+        secondString = "B";
+        System.out.println(firstString.equals(secondString));
+
+        firstString = "A";
+        secondString = "B";
+        System.out.println(firstString.equals(secondString));
+
+        /**
+         * When you compare strings this way (as you should), make sure neither string
+         * is null. Otherwise, you risk your program crashing!
+         */
+
+        
 
         // And - &&
 
