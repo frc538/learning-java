@@ -252,13 +252,49 @@ public class App {
          * is null. Otherwise, you risk your program crashing!
          */
 
-        
+        /**
+         * The one exception for strings (and any object) is null. You should always use
+         * == and != when comparing a string to null. This will be the case for any
+         * object, not just strings.
+         */
+        String notNullString = "my string";
+        System.out.println(notNullString == null);
+        System.out.println(notNullString != null);
+
+        String nullString = null;
+        System.out.println(nullString == null);
+        System.out.println(nullString != null);
+
+        /**
+         * Just like we have operators for our numerical values, we have special
+         * operations we can perform on booleans.
+         * 
+         * We can take one boolean value and invert it - change true to false and false
+         * to true.
+         * 
+         * This operation is called "NOT," and we use the ! symbol (read: bang).
+         */
+        boolean areNumbersEqual = 4 == 5;
+        System.out.println(areNumbersEqual);
+        System.out.println(!areNumbersEqual);
+
+        areNumbersEqual = 4 == 4;
+        System.out.println(areNumbersEqual);
+        System.out.println(!areNumbersEqual);
+
+        /**
+         * The "NOT" operation isn't necessarily something we need for numbers - we have
+         * both the == and != operations. But it is extremely useful for strings. Since
+         * strings only have the .equals() method (remember not to use == or != with
+         * strings), the not operator comes in handy.
+         */
+        boolean areStringsEqual = firstString.equals(secondString);
+        System.out.println(areStringsEqual);
+        System.out.println(!areStringsEqual);
 
         // And - &&
 
         // Or - ||
-
-        // Not
 
         // Regular And - &
 
