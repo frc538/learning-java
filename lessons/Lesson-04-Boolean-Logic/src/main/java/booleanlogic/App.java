@@ -310,49 +310,11 @@ public class App {
          * This operation is also called ANDing - because it only produces a true value
          * if the first value AND all other values are true.
          * 
-         * There are two ways to write this, using either the & symbol or the && symbol.
+         * To write this, use the && symbol.
          */
         int andIntegerValue = 6;
-        boolean explicitAnd = (andIntegerValue > 5) & (andIntegerValue < 15);
-        boolean shortCircuitAnd = (andIntegerValue > 5) && (andIntegerValue < 15);
-        System.out.println(explicitAnd);
-        System.out.println(shortCircuitAnd);
-
-        /**
-         * The & operator may be called an explicit and - it checks every condition.
-         * 
-         * The && operator may be called the short-circuit and - it stops checking as
-         * soon as it can.
-         * 
-         * We said before that for AND to give a true value, every expression must be
-         * true. The & operator will check every single expression in the list. The &&
-         * operator will stop checking as soon as it finds one false (since they all
-         * have to be true to give a true value).
-         * 
-         * Here's an example.
-         */
-        int staticValue = 4;
-        int changingValue = 0;
-        explicitAnd = (staticValue > 5) & (changingValue++ < 10);
-        System.out.println(explicitAnd);
-        System.out.println(changingValue);
-
-        staticValue = 4;
-        changingValue = 0;
-        shortCircuitAnd = (staticValue > 5) && (changingValue++ < 10);
-        System.out.println(shortCircuitAnd);
-        System.out.println(changingValue);
-
-        /**
-         * You'll notice that both gave false results. When you check the value of the
-         * "changing" value, you'll see it changed in the first one but not the second
-         * one.
-         * 
-         * This is because the first and operator actually ran the changingValue++ < 10
-         * check (and the ++ changed the value of the variable). The short-circuit and
-         * (&&) did not because it already determined the whole expression was false
-         * because the first part was false.
-         */
+        boolean andValue = (andIntegerValue > 5) && (andIntegerValue < 15);
+        System.out.println(andValue);
 
         /**
          * Suppose you have two checks and it's enough for either to true. You need an
@@ -364,58 +326,10 @@ public class App {
          * This operation is also called ORing - because it produces a true value if the
          * first value OR any other value is true.
          * 
-         * There are two ways to write this, using either the | symbol or the || symbol.
+         * To write this, use the || symbol.
          */
         int orIntegerValue = 20;
-        boolean explicitOr = (orIntegerValue < 5) | (orIntegerValue > 15);
-        boolean shortCircuitOr = (orIntegerValue < 5) || (orIntegerValue > 15);
-        System.out.println(explicitOr);
-        System.out.println(shortCircuitOr);
-
-        /**
-         * The | operator may be called an explicit or - it checks every condition.
-         * 
-         * The || operator may be called the short-circuit or - it stops checking as
-         * soon as it can.
-         * 
-         * We said before that for OR to give a true value, at least one (any)
-         * expression must be true. The | operator will check every single expression in
-         * the list. The || operator will stop checking as soon as it finds one true
-         * (since only one has to be true to give a true value).
-         * 
-         * Here's an example.
-         */
-        staticValue = 4;
-        changingValue = 0;
-        explicitOr = (staticValue < 5) | (changingValue++ < 10);
-        System.out.println(explicitOr);
-        System.out.println(changingValue);
-
-        staticValue = 4;
-        changingValue = 0;
-        shortCircuitOr = (staticValue < 5) || (changingValue++ < 10);
-        System.out.println(shortCircuitOr);
-        System.out.println(changingValue);
-
-        /**
-         * You'll notice that both gave true results. When you check the value of the
-         * "changing" value, you'll see it changed in the first one but not the second
-         * one.
-         * 
-         * This is because the first or operator actually ran the changingValue++ < 10
-         * check (and the ++ changed the value of the variable). The short-circuit or
-         * (||) did not because it already determined the whole expression was true
-         * because the first part was true.
-         */
-
-        /**
-         * If the short-circuiting concepts are giving you trouble, that's okay right
-         * now. For what we're working with, you probably won't see a different, and if
-         * you do see a difference then your code can probably be improved.
-         * 
-         * For now, understand what AND and OR do and default to using the short-circuit
-         * operators (&& and ||). Avoid the single characters (& and |) whenever
-         * possible right now.
-         */
+        boolean orValue = (orIntegerValue < 5) || (orIntegerValue > 15);
+        System.out.println(orValue);
     }
 }
