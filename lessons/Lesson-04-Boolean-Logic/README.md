@@ -2,7 +2,6 @@
 
 ## Topics
 
-<!-- TODO: Topics -->
 This lesson introduces:
 
 - Constants
