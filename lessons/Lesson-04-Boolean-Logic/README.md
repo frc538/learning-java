@@ -34,7 +34,7 @@ The discriminant is given by: D = b^2 - 4ac.
 
 An image of the formula as it's usually seen in math texts is provided here:
 
-![quadratic formula image](./discriminant.png)
+![discriminant image](./discriminant.png)
 
 When using the discriminant, we care about when the value is 0, positive, or negative.
 
