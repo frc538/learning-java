@@ -26,7 +26,6 @@ You can read more:
 
 ## Next Steps
 
-<!-- TODO: Next Steps -->
 For this lesson, we'll revisit a specific part of the quadratic formula - the discriminant.
 
 The discriminant, D, tells us if the equation will have 0, 1, or 2 real solutions.
