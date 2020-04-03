@@ -32,3 +32,7 @@ jobs:
     - name: Build Lesson 04
       run: chmod +x lessons/Lesson-04-Boolean-Logic/gradlew
             && ./lessons/Lesson-04-Boolean-Logic/gradlew build
+
+    - name: Build Lesson 05
+      run: chmod +x lessons/Lesson-05-Conditionals/gradlew
+            && ./lessons/Lesson-05-Conditionals/gradlew build
